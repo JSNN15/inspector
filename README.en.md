@@ -48,7 +48,8 @@ Each finding comes back with **title, detail, severity (high, medium, low), a co
 | Prompt depends on the asset type | Panels, belts and rotating equipment fail differently, so the checklist changes. |
 | JSON output with 0-1000 boxes | Resolution-independent; the page draws without trusting the model for rendering. |
 | Retry on malformed JSON | The gateway repairs trailing commas or asks once more. |
-| Cached examples | The 6 sample photos load instantly without using API calls; your own photo does call the AI. |
+| Cached examples | The 17 sample photos (panels, valves, cable pits, flooded galleries, structures) load instantly without using API calls; your own photo does call the AI. |
+| Live camera | The Camera button opens the phone, tablet or PC camera in the page (getUserMedia, rear camera by default) and analyzes the captured frame. If the browser does not allow it, it falls back to the system camera. |
 
 ## Limits
 
@@ -68,7 +69,7 @@ Run locally: `python3 -m http.server 8770` and open `http://localhost:8770`. Loc
 
 ## Credits
 
-Sample photos (their authors' licenses, not Apache-2.0): *Electrical Panel* (peretzp), *square-d distribution board* (h080), *Green is the colour of...* (Jens Rost), *Electric panel* (sparr0), *Open room distribution board* (seeweb), all CC BY-SA 2.0 via Openverse; belt frame from BeltCrack (Huang et al., 2026, CC BY-SA 4.0).
+Sample photos (their authors' licenses, not Apache-2.0): *Electrical Panel* (peretzp), *square-d distribution board* (h080), *Green is the colour of...* (Jens Rost), *Electric panel* (sparr0), *Open room distribution board* (seeweb), all CC BY-SA 2.0 via Openverse; belt frame from BeltCrack (Huang et al., 2026, CC BY-SA 4.0). Also via Openverse: *Old Fuse Box* (chrstphre), *DSC00360* (dcmorton), *09. Water Pumped out of Tracks* (MTAPhotos), *6120 old fuse box* (crabchick), *Chambre bien remplie* (Point d'Appui National ANT), *Old Columbus Road Lift Bridge Span* (lungstruck), *Old Rusty Valve* (Gordon M Robertson), *old fuse boxes* (johnclarkemills), CC BY 2.0; *Rusty Valve* (mikecogh), *Outdoor Gas Installation* (christian.senger), *Old fuse box* (Valerie Everett), CC BY-SA 2.0. Links in the page footer.
 
 ---
 

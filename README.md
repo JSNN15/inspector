@@ -46,7 +46,8 @@ Cada hallazgo vuelve con **título, detalle, severidad (alta, media, baja), acci
 | Prompt según el tipo de activo | Un tablero, una correa y un equipo rotatorio tienen fallas distintas: el prompt cambia la lista de chequeo. |
 | Salida en JSON con cajas 0-1000 | Independiente de la resolución, y la página dibuja sin depender del modelo. |
 | Reintento si el JSON viene mal | Si la respuesta no se puede leer, el intermediario repara comas o pide de nuevo una vez. |
-| Ejemplos guardados | Las 6 fotos de ejemplo cargan al instante y sin gastar consultas; la foto propia sí llama a la IA. |
+| Ejemplos guardados | Las 17 fotos de ejemplo (tableros, válvulas, cámaras de cables, galerías inundadas, estructuras) cargan al instante y sin gastar consultas; la foto propia sí llama a la IA. |
+| Cámara en vivo | El botón Cámara abre la cámara del celular, tablet o PC en la misma página (getUserMedia, cámara trasera por defecto) y analiza el cuadro capturado. Si el navegador no lo permite, abre la cámara del sistema. |
 
 ## Límites
 
@@ -66,7 +67,7 @@ Para probarla en local: `python3 -m http.server 8770` y abre `http://localhost:8
 
 ## Créditos
 
-Fotos de ejemplo (licencias de sus autores, no Apache-2.0): *Electrical Panel* (peretzp), *square-d distribution board* (h080), *Green is the colour of...* (Jens Rost), *Electric panel* (sparr0), *Open room distribution board* (seeweb), todas CC BY-SA 2.0 vía Openverse; cuadro de correa de BeltCrack (Huang y otros, 2026, CC BY-SA 4.0).
+Fotos de ejemplo (licencias de sus autores, no Apache-2.0): *Electrical Panel* (peretzp), *square-d distribution board* (h080), *Green is the colour of...* (Jens Rost), *Electric panel* (sparr0), *Open room distribution board* (seeweb), todas CC BY-SA 2.0 vía Openverse; cuadro de correa de BeltCrack (Huang y otros, 2026, CC BY-SA 4.0). Además, vía Openverse: *Old Fuse Box* (chrstphre), *DSC00360* (dcmorton), *09. Water Pumped out of Tracks* (MTAPhotos), *6120 old fuse box* (crabchick), *Chambre bien remplie* (Point d'Appui National ANT), *Old Columbus Road Lift Bridge Span* (lungstruck), *Old Rusty Valve* (Gordon M Robertson), *old fuse boxes* (johnclarkemills), CC BY 2.0; *Rusty Valve* (mikecogh), *Outdoor Gas Installation* (christian.senger), *Old fuse box* (Valerie Everett), CC BY-SA 2.0. Enlaces en el pie de la página.
 
 ---
 
