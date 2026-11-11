@@ -1,5 +1,7 @@
 # Inspector de terreno
 
+> **Versión anterior.** La máquina actual es [Supervisor normativo](https://github.com/JSNN15/supervisor): identifica el equipo y lo revisa contra una lista con el artículo ya asignado. Este repositorio queda como registro de la primera versión, en que la IA opinaba sobre la foto sin lista ni norma.
+
 **Sacas una foto de un tablero, una correa o un equipo. La IA marca lo que ve mal, dice qué hacer y arma la orden de trabajo.**
 
 [![Abrir la máquina](https://img.shields.io/badge/Probar-jsnn15.github.io%2Finspector-76b900?style=for-the-badge)](https://jsnn15.github.io/inspector/)

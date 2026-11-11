@@ -1,5 +1,7 @@
 # Field Inspector
 
+> **Previous version.** The current machine is [Compliance supervisor](https://github.com/JSNN15/supervisor): it identifies the equipment and checks it against a list with the article already assigned. This repository is kept as a record of the first version.
+
 **Take a photo of an electrical panel, a conveyor belt or a piece of equipment. The AI marks what looks wrong, says what to do and drafts the work order.**
 
 [![Open the tool](https://img.shields.io/badge/Try%20it-jsnn15.github.io%2Finspector-76b900?style=for-the-badge)](https://jsnn15.github.io/inspector/)
