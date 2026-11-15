@@ -1,10 +1,10 @@
 # Inspector de terreno
 
-> **Versión anterior.** La máquina actual es [Supervisor normativo](https://github.com/JSNN15/supervisor): identifica el equipo y lo revisa contra una lista con el artículo ya asignado. Este repositorio queda como registro de la primera versión, en que la IA opinaba sobre la foto sin lista ni norma.
+> **Versión anterior.** La versión actual es [Supervisor normativo](https://github.com/JSNN15/supervisor): identifica el equipo y lo revisa contra una lista con el artículo ya asignado. Este repositorio queda como registro de la primera versión, en que la IA opinaba sobre la foto sin lista ni norma.
 
 **Sacas una foto de un tablero, una correa o un equipo. La IA marca lo que ve mal, dice qué hacer y arma la orden de trabajo.**
 
-[![Abrir la máquina](https://img.shields.io/badge/Probar-jsnn15.github.io%2Finspector-76b900?style=for-the-badge)](https://jsnn15.github.io/inspector/)
+[![Abrir la herramienta](https://img.shields.io/badge/Probar-jsnn15.github.io%2Finspector-76b900?style=for-the-badge)](https://jsnn15.github.io/inspector/)
 ![NVIDIA Nemotron VL](https://img.shields.io/badge/NVIDIA-Nemotron%20VL-76b900?style=flat-square&logo=nvidia&logoColor=white)
 ![Sin build](https://img.shields.io/badge/HTML%20%2B%20JS-sin%20dependencias-555?style=flat-square)
 ![Licencia](https://img.shields.io/badge/c%C3%B3digo-Apache--2.0-blue?style=flat-square)
@@ -61,7 +61,7 @@ Cada hallazgo vuelve con **título, detalle, severidad (alta, media, baja), acci
 
 | Archivo | Qué es |
 |---|---|
-| `index.html` | La máquina completa: interfaz, dibujo de marcas y orden de trabajo. Sin build ni dependencias. |
+| `index.html` | La herramienta completa: interfaz, dibujo de marcas y orden de trabajo. Sin build ni dependencias. |
 | `s/` | Fotos de ejemplo con su resultado guardado. |
 | `docs/` | GIF de la demo y diagramas. |
 
@@ -74,4 +74,4 @@ Fotos de ejemplo (licencias de sus autores, no Apache-2.0): *Electrical Panel* (
 ---
 
 <sub>Proyecto personal de **Julián Neira Nova**, ingeniero eléctrico con 10 años en faena · Servicio y Soluciones Tecnológicas DelaCruz SpA. Nada de lo publicado proviene de clientes ni de empleadores.
-[Portafolio](https://jsnn15.github.io/) · [LinkedIn](https://www.linkedin.com/in/julian-neira-nova/) · [Todas las máquinas](https://github.com/JSNN15)</sub>
+[Portafolio](https://jsnn15.github.io/) · [LinkedIn](https://www.linkedin.com/in/julian-neira-nova/) · [Todas las herramientas](https://github.com/JSNN15)</sub>
