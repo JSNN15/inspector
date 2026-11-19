@@ -368,7 +368,7 @@ const SAMPLES = [
     "img": "s/n6.jpg",
     "kind": "tablero",
     "credit": "Old Fuse Box · chrstphre · CC BY 2.0",
-    "link": "https://www.flickr.com/photos/12457246@N03/32673756057",
+    "link": "https://www.flickr.com/photos/12457246@N03/",
     "ms": 4367,
     "result": {
       "resumen": "Gabinete eléctrico abierto y sucio, con conexiones expuestas, cables dañados y posible sobrecalentamiento; representa un riesgo eléctrico serio.",
@@ -838,7 +838,7 @@ const SAMPLES = [
     "img": "s/n13.jpg",
     "kind": "tablero",
     "credit": "Old fuse box · Valerie Everett · CC BY-SA 2.0",
-    "link": "https://www.flickr.com/photos/66742614@N00/6811481882",
+    "link": "https://www.flickr.com/photos/66742614@N00/",
     "ms": 13835,
     "result": {
       "resumen": "Gabinete eléctrico metálico con corrosión generalizada y pintura deteriorada, instalado en pared de piedra; se observa candado de seguridad en el cierre.",
